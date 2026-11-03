@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Array Operations</h1>
+
+    <h3>Create Array</h3>
+    <input type="number" id="length" min="1" placeholder="Array length">
+    <button onclick="createArray()">Create Array</button>
+
+    <div id="elementInputs"></div>
+    <button onclick="saveArray()">Submit Elements</button>
+
+    <h3>Current Array</h3>
+    <p id="arrDisplay">Array not created</p>
+
+    <h3>Enter Values</h3>
+    <input type="text" id="removeVal" placeholder="Element to delete">
+    <input type="text" id="checkVal" placeholder="Value to check">
+
+    <h3>Using Standard Array Methods</h3>
+    <button onclick="removeItem()">Delete Element</button>
+    <button onclick="checkItem()">Check Value</button>
+    <button onclick="emptyArray()">Empty Array</button>
+
+    <p id="standardResult"></p>
+
+    <h3>Without Standard Array Methods</h3>
+    <button onclick="removeItemManual()">Delete Element</button>
+    <button onclick="checkItemManual()">Check Value</button>
+    <button onclick="emptyArrayManual()">Empty Array</button>
+
+    <p id="manualResult"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

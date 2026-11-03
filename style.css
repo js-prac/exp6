@@ -1,0 +1,90 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6fa;
+    color: #263238;
+    margin: 0;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+h1 {
+    color: #34495e;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: #34495e;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccd2da;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4776c5;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #4776c5;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #345da0;
+}
+
+#arrDisplay {
+    background: white;
+    border: 1px solid #dce1e8;
+    border-radius: 6px;
+    padding: 15px;
+    max-width: 600px;
+    margin: 10px auto;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+#standardResult,
+#manualResult {
+    background: white;
+    border: 1px solid #dce1e8;
+    border-radius: 5px;
+    padding: 12px;
+    max-width: 500px;
+    margin: 10px auto;
+    min-height: 20px;
+}
+
+@media (max-width: 600px) {
+    input {
+        max-width: 100%;
+    }
+
+    button {
+        padding: 9px 12px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
